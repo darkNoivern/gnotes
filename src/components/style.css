@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Space+Mono&display=swap');
+
+body{    
+    background-color: rgb(227, 226, 226);
+}
+
+.navbar-brand{
+    font-family: 'Space Mono', monospace;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.color{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    list-style: none;
+    cursor: pointer;
+}
+
+.col{
+    padding: 0;
+}
+
+ul{
+    padding-left: 0;
+}
+
+.flexy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    height: 10rem;
+}
+
+.save-btn{
+    border-radius: 1.5rem;
+}
+
+.blue{
+    background-color: #8ADFF2 !important;
+}
+
+.yellow{
+    background-color: #FFDE91 !important;
+}
+
+.red{
+    background-color: #E96672 !important;
+    color: white !important;
+}
+
+.violet{
+    background-color: #8053AE !important;
+    color: white !important;
+}
+
+.pink{
+    background-color: #E35998 !important;
+    color: white !important;
+}
+
+.card{
+    max-width: 20rem;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 1rem 1rem 0rem 1rem !important;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%) !important;
+}
+
+.card-body{
+    min-height: 10rem;
+}
